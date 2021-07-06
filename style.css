@@ -84,10 +84,6 @@
         width: 100%;
     }
     
-    .recipe-part {
-        text-align: center;
-    }
-    
     #my-part {
         text-align: center;
     }
@@ -97,7 +93,7 @@
     }
     
     .last-part {
-        height: 350px;
+        height: 400px;
         margin: 0;
         text-align: center;
         background-color: black;
@@ -114,6 +110,10 @@
         color: white;
         font-size: 20px;
         font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .recipe-part {
+        text-align: center;
     }
     
     .recipe-counter {
@@ -138,4 +138,33 @@
         display: 33%;
         font-size: 60px;
         font-weight: 700;
+    }
+    
+    #media {
+        color: gray;
+        padding-top: 2%;
+    }
+    
+    .fa-facebook-square {
+        color: #3b5998;
+        font-size: 3rem;
+        margin: 0px 5px;
+    }
+    
+    .fa-youtube {
+        color: red;
+        font-size: 3rem;
+        margin: 0px 5px;
+    }
+    
+    .fa-instagram {
+        color: #f16d;
+        font-size: 3rem;
+        margin: 0px 5px;
+    }
+    
+    .fa-linkedin {
+        color: #0e76e8;
+        font-size: 3rem;
+        margin: 0px 5px;
     }
